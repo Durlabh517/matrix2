@@ -7,9 +7,9 @@ import java.util.List;
 public class MoveObject {
 
 
-
 	public String changeDirection(String direction, int command) {
 
+System.out.println("sasdfs");
 		if(command == 3)
 		{
 			switch(direction) 
@@ -161,6 +161,8 @@ public class MoveObject {
             for (int j = 0; j < matrix[i].length; j++) {
             	
             	 try {
+//            		 System.out.println("hi"+matrixPosition);
+//            	System.out.println(matrix[i][j]);
             		 matrixPosition= matrix[i][j];
             		 
             		 if (matrixPosition.equalsIgnoreCase(currentPosition)) {

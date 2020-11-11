@@ -5,11 +5,11 @@ import java.util.List;
 
 //@Component
 public class MoveObject {
+	
 
 
 	public String changeDirection(String direction, int command) {
 
-System.out.println("sasdfs");
 		if(command == 3)
 		{
 			switch(direction) 
